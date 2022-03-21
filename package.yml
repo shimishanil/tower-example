@@ -1,0 +1,11 @@
+---
+- name: Install packages on Node1
+  hosts: ansiblenode1
+  user: TowerAdmin
+  become: True
+  tasks:
+   - name: Install Samba package on node1
+     yum: 
+       name: samba
+       state: present
+       
