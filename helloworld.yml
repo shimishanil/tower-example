@@ -1,7 +1,7 @@
 ---
 - name: Hello World!
   hosts: ansiblenode1
-  user: TowerAdmin
+  user: TowerUser
  
   tasks:
  
